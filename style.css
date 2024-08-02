@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-blend-mode: multiply;
+    background: url(./IMG-20240603-WA0010.jpg) no-repeat rgba(67, 12, 77, 0.7);
+    background-size: cover;
+    /* background-color: rgba(128, 0, 128, 0.5); */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+
+.container {
+    margin-top:3%;
+}
+.header h1 {
+    font-size: 25px;
+    text-align: center;
+}
+.header p {
+    font-style: italic;
+    text-align: center;
+}
+
+
+.form {
+    background-color: rgba(15, 11, 31, 0.7);
+    width: 100%;
+    padding: 20px;
+    margin: 25px 0px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+}
+
+.other {
+    margin-bottom: 20px;
+}
+
+input[type=text], input[type=number], input[type=email], select {
+    width: 100%;
+    font-size: 12px;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    color: grey;
+}
+
+.radio {
+    display: flex;
+}
+
+textarea {
+    width: 100%;
+    height: 140px;
+    padding: 10px 15px;
+    border: 1px solid grey;
+    resize: none;
+    border-radius: 5px;
+}
+
+.comment {
+    margin-bottom: 20px;
+}
+
+input[type=submit] {
+    color: white;
+    background-color: darkgreen;
+    width: 100%;
+    padding: 5px 10px;
+    border: 0;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 15px;
+    
+}
